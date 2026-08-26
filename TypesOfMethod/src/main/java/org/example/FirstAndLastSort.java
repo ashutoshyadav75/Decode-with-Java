@@ -16,6 +16,7 @@ public class FirstAndLastSort {
                 }
             }
             return s1.substring(0, idx); // Hello this is code
+            sout
 
         }
     }
