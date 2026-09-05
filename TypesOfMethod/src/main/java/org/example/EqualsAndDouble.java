@@ -10,6 +10,14 @@ public class EqualsAndDouble {
         System.out.println(s==t);
         String b = new String(s);
         System.out.println(s==t);
+        String s = "abcdxyz";
+        String t = "abcxyz";
+        System.out.println(s==t);
+        String t = "abc";
+        t = t + "xyz";
+        System.out.println(s==t);
+        String b = new String(s);
+        System.out.println(s==t);
 
     }
 }
